@@ -42,7 +42,7 @@
 
 ## 5. Значимые фрагменты кода
 - **вывод массива**
-```
+```php
 <div id="insert" class="container">
     <div class="text-center fs-1">Массив</div>
     <?php 
@@ -63,7 +63,7 @@
 </div>
 ```
 - **bubbleSort**
-```
+```php
 async function bubbleSort(size){
     let i=0;
     let j=0;
@@ -84,7 +84,7 @@ async function bubbleSort(size){
 }
 ```
 - **get**
-```
+```php
 async function get(id){
     let x=0;
     let create_data = new FormData();
@@ -100,7 +100,7 @@ async function get(id){
 ```
 
 - **set**
-```
+```php
 async function set(val, id){
     let create_data = new FormData();
     create_data.append('index', id);
